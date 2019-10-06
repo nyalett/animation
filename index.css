@@ -1,9 +1,49 @@
 * {
-    background: rgb(160, 4, 4) ;
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.mid {
+    left: 25px;
+    top: 25px;
+}
+
+.bot {
+    left: 50px;
+    top: 50px;
+}
+@keyframes run {
+    0% {
+        transform: translate(50%,);
+        border-radius: 50%;
+      }
+      25% {
+        transform: translate(0%, 10%, ) ; 
+        border-radius: 40%;
+      }
+      50% {
+        transform: translate(0%, 0%, 10%);
+        border-radius: 50%; 
+      }
+      75% {
+        transform: translate(0%, 10%); 
+        border-radius: 40%;
+      }
+    }
+.cube div:first-child {
+    animation-name: run;
+    animation-duration: 2s; /* продолжительность анимации*/
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; /* повтор анимации*/
+    animation-direction: alternate; /* направление*/
+}
+.kolo div:first-child:hover {
+    z-index: 1;
+    /* transform: translate(50px, 100px) ; */
+}
+.fon {
+    background-color: brown;
 }
 .block_seft {
     float: left;
@@ -25,7 +65,7 @@
 }
 
 .cube {
-    background: rgb(1, 153, 133);
+    background: rgb(255, 255, 255);
     position: relative;
     left: 150%;
     top: -270px;
@@ -35,24 +75,13 @@
 }
 
 .kolo {
-    background: rgb(213, 250, 1);
+    background: rgb(189, 0, 0);
     position: relative;
     height: 100px;
     width: 100px;
     border-radius: 50%; 
 }
-
-.mid {
-    left: 25px;
-    top: 25px;
-}
-
-.bot {
-    left: 50px;
-    top: 50px;
-}
-
-.img {
+.anime {
     height: 60px;
     width: 60px;
     display: block;

@@ -7,9 +7,26 @@
         <title>Display</title>
         <link rel="stylesheet" href="index.css">
         <script src="https://kit.fontawesome.com/bf4f043b74.js" crossorigin="anonymous"></script>
+        <style>
+                        .sun {
+                         float: left; /* Обтекание по правому краю */
+                         background: rgb(255, 72, 0); /* Цвет фона */
+                         border: 1px solid black; /* Параметры рамки */
+                         padding: 3px; /* Поля вокруг текста */
+                         margin-right: 20px; /* Отступ справа */
+                         width: 40%; /* Ширина блока */
+                        }
+                        body {
+                                background: url(img/black_star.png);
+                                background-color: rgb(175, 37, 2);
+                                background-size: 3%;
+                                background-position: right bottom; /* Положение фона */
+                                background-repeat: repeat-y ; /* Повторяем фон по горизонтали */ /* Современные браузеры */
+   }
+                       </style>
 </head>
 <body>
-        <main>
+        <main class="fon">
                 <div class="circuit">
               <div class="block_seft">
                 <img src="img/Sun fon.jpg" alt="my_sun" class="sun">
@@ -34,12 +51,12 @@
                 </div>
               </div>
               <div class="circuit_right">
-                <img src="img/black_star.png" alt="N_star" class="img">
-                <img src="img/black_star.png" alt="N_star" class="img">
-                <img src="img/black_star.png" alt="N_star" class="img">
-                <img src="img/black_star.png" alt="N_star" class="img">
-                <img src="img/black_star.png" alt="N_star" class="img">
-                <img src="img/black_star.png" alt="N_star" class="img">
+                <img class="anime" src="img/black_star.png" alt="N_star" class="img">
+                <img class="anime" src="img/black_star.png" alt="N_star" class="img">
+                <img class="anime" src="img/black_star.png" alt="N_star" class="img">
+                <img class="anime" src="img/black_star.png" alt="N_star" class="img">
+                <img class="anime" src="img/black_star.png" alt="N_star" class="img">
+                <img class="anime" src="img/black_star.png" alt="N_star" class="img">
               </div>
       </div>
 </main>

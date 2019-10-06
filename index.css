@@ -1,0 +1,63 @@
+* {
+    background: rgb(160, 4, 4) ;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block_seft {
+    float: left;
+    width: 500px;
+    height: 100vh;
+}
+
+.sun {
+    width: 200px;
+    height: 170px;
+    margin: 12px;
+    float: left;
+}
+
+.circuit_center {
+    float: left;
+    height: 100vh;
+    width:450px;
+}
+
+.cube {
+    background: rgb(1, 153, 133);
+    position: relative;
+    left: 150%;
+    top: -270px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.kolo {
+    background: rgb(213, 250, 1);
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+}
+
+.mid {
+    left: 25px;
+    top: 25px;
+}
+
+.bot {
+    left: 50px;
+    top: 50px;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    display: block;
+    position: relative ;
+    top: -850px;
+    left: 200%;
+    margin-bottom: 10px;
+}
